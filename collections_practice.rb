@@ -4,4 +4,7 @@ def sort_array_asc(array)
   return array_sort
 end 
 
-def sort_array_desc
+def sort_array_desc(array)
+    array.sort do |a, b|
+    b <=> a
+end
