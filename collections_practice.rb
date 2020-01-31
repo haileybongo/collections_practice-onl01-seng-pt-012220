@@ -1,3 +1,5 @@
 def sort_array_asc(array)
   array_sort = []
-  array.each
+  array_sort = array.sort
+  return array_sort
+end 
