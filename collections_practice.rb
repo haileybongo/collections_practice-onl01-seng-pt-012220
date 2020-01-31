@@ -31,31 +31,10 @@ def reverse_array(array)
 end
 
 def kesha_maker(array)
-  array.each_with_index { |letter, index| index % 3 == 0 ? letter = "$" : letter }
-  
-  while i < new_string.length 
-    if 
-  
-  
-  
-  
-  array_new = []
-  i = 0 
-  array.each do |word|
-    while i < array.length
-      if (word.index + 1)  % 3 == 0 
-      new_character = "$"
-      array_new << new_character
-      i =+ 1 
-     else 
-      array_new << word
-      i += 1 
-     end
-    end
-  end
-    array_new
+  array.each_with_index { |letter, index| index % 3 == 0 ? letter = "$", new_array << letter : new_array << letter }
+  return new_array
 end
-    
+  
     
     
     
