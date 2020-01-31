@@ -32,9 +32,15 @@ end
 
 def kesha_maker(array)
   new_array = []
-  array.each_with_index { |letter, index| index % 3 == 0 ? letter = "$"  : letter }
+  array.each_with_index do |letter, index| 
+    if index % 3 == 0 
+      letter = "$"
+      new_array << letter
+    else 
+    letter 
      new_array << letter
-  return new_array
+   end
+  new_array
 end
   
     
