@@ -35,19 +35,17 @@ def kesha_maker(array)
   i = 0 
   array.each do |word|
     while i < array.length
-    if (array.index + 1)  % 3 == 0 
-      array[i] = $ 
-      array_new << array[i]
+      if (word.index + 1)  % 3 == 0 
+      word = $ 
+      array_new << word
       i =+ 1 
-    else 
-      array_new << array[i]
+     else 
+      array_new << word
       i += 1 
-      
+     end
     end
-  end
     array_new
-    
-  end
+end
     
     
     
