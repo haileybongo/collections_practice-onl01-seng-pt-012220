@@ -21,4 +21,5 @@ def swap_elements(array)
      array_placeholder_two = array [2]
      array[1] = array_placeholder_two
      array[2] = array_placeholder
+     return array
 end
