@@ -36,7 +36,7 @@ def kesha_maker(array)
   array.each do |word|
     while i < array.length
       if (word.index + 1)  % 3 == 0 
-      word = $ 
+      word = "$"
       array_new << word
       i =+ 1 
      else 
