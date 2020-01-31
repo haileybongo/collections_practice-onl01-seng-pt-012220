@@ -29,3 +29,8 @@ def reverse_array(array)
   array_new = array.reverse 
   return array_new
 end
+
+def kesha_maker(array)
+  array_new = []
+  array.each do |word|
+    while array.index
