@@ -35,9 +35,12 @@ def kesha_maker(array)
   new_string = array.join(" ")
   n = s.length
   i = 0
-while i < n
-  s[i] = s[i].upcase
-  i += 5
+  while i < n
+    s[i] = "$"
+    i += 3
+    new_array << s[i]
+  end
+  new_array.
 end
 
 def kesha_maker(array)
