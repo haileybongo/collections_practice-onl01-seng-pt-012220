@@ -31,9 +31,11 @@ def reverse_array(array)
 end
 
 def kesha_maker(array)
-  array.join(" ")
+  new_string = array.join(" ")
   i = 0 
-  while i 
+  
+  while i < new_string.length 
+    if 
   
   
   
