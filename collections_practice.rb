@@ -33,4 +33,4 @@ end
 def kesha_maker(array)
   array_new = []
   array.each do |word|
-    while array.index
+    while array.index + 1  % 3 == 0 
