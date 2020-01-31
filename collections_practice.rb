@@ -31,8 +31,7 @@ def reverse_array(array)
 end
 
 def kesha_maker(array)
-  new_string = array.join(" ")
-  i = 0 
+  array.each_with_index { |letter, index| index % 3 == 0 ? letter.upcase : letter }
   
   while i < new_string.length 
     if 
