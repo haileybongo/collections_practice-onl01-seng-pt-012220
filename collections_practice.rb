@@ -30,6 +30,16 @@ def reverse_array(array)
   return array_new
 end
 
+
+def kesha_maker(array)
+  new_string = array.join(" ")
+  n = s.length
+  i = 0
+while i < n
+  s[i] = s[i].upcase
+  i += 5
+end
+
 def kesha_maker(array)
   new_array = []
   array.each_with_index do |letter, index| 
