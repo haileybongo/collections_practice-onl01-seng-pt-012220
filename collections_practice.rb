@@ -31,6 +31,13 @@ def reverse_array(array)
 end
 
 def kesha_maker(array)
+  array.join(" ")
+  i = 0 
+  while i 
+  
+  
+  
+  
   array_new = []
   i = 0 
   array.each do |word|
