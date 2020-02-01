@@ -37,6 +37,7 @@ def kesha_maker(array)
   new_array = []
   i = 0
   while i < n
+    if new_string[i].in
     new_string[i] = "$"
     i += 3
     new_array << new_string[i]
