@@ -31,7 +31,7 @@ def reverse_array(array)
 end
 
 
-#def kesha_maker(array)
+def kesha_maker(array)
   new_string = array.join(" ")
   n = s.length
   i = 0
@@ -43,7 +43,7 @@ end
   new_array.split(" ")
 end
 
-def kesha_maker(array)
+def kesha_make(array)
   new_array = []
   array.each_with_index do |letter, index| 
     if index % 3 == 0 
