@@ -40,7 +40,7 @@ def kesha_maker(array)
     i += 3
     new_array << s[i]
   end
-  new_array.
+  new_array.split(" ")
 end
 
 def kesha_maker(array)
