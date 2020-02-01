@@ -34,6 +34,7 @@ end
 def kesha_maker(array)
   new_string = array.join(" ")
   n = new_string.length
+  new_array = []
   i = 0
   while i < n
     new_string[i] = "$"
