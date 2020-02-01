@@ -32,32 +32,10 @@ end
 
 
 def kesha_maker(array)
-  new_string = array.join(" ")
-  n = new_string.length
-  new_array = []
-  i = 0
-  while i < n
-    if new_string[i].in
-    new_string[i] = "$"
-    i += 3
-    new_array << new_string[i]
+  array.each do |item|
+    item[2] = "$"
   end
-  new_array.split(" ")
 end
-
-def kesha_make(array)
-  new_array = []
-  array.each_with_index do |letter, index| 
-    if index % 3 == 0 
-      new_letter = "$"
-      new_array << new_letter
-    else 
-     new_array << letter
-   end
-  new_array
-end
-end
-  
     
     
     
