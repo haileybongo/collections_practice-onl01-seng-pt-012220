@@ -39,7 +39,7 @@ def kesha_maker(array)
   while i < n
     new_string[i] = "$"
     i += 3
-    new_array << s[i]
+    new_array << new_string[i]
   end
   new_array.split(" ")
 end
