@@ -31,7 +31,7 @@ def reverse_array(array)
 end
 
 
-def kesha_maker(array)
+#def kesha_maker(array)
   new_string = array.join(" ")
   n = s.length
   i = 0
