@@ -33,10 +33,10 @@ end
 
 def kesha_maker(array)
   new_string = array.join(" ")
-  n = s.length
+  n = new_string.length
   i = 0
   while i < n
-    s[i] = "$"
+    new_string[i] = "$"
     i += 3
     new_array << s[i]
   end
