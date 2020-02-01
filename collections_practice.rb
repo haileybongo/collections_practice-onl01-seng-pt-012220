@@ -42,6 +42,12 @@ def find_a(array)
   word.start_with? "a"
   end
 end 
+
+
+def sum_array(array)
+  array.each
+
+
     
     
       
